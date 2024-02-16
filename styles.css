@@ -11,7 +11,7 @@ body {
 header {
     background-color: blue;
     color: white;
-    padding: 1.5rem;
+    padding: 1rem;
     grid-area: header;
 }
 
@@ -20,10 +20,17 @@ nav {
     grid-area: nav;
 }
 
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
 main {
     background-color: darkblue;
     color: white;
     grid-area: main;
+    padding-block: 0.75rem;
 }
 
 aside {
